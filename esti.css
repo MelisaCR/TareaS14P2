@@ -1,0 +1,145 @@
+body{
+	background-image: url("fondo1.jpg");
+	
+}
+
+@font-face{
+	font-family: letra1;
+	src: url(Romantic.ttf);
+}
+
+
+@font-face{
+	font-family: letra2;
+	src: url(letra2.otf);
+}
+#tit{
+	transition: all 1s;
+	background: rgba(174, 214, 241,0.7);
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	right: 5%;
+	top: 2%;
+	height: 15%;
+	text-align: center;
+	font-size: 250%;
+	font-family: letra1;
+	padding-top: 2%;
+	border: 2px solid blue;
+	
+
+}
+
+#p1{
+	transition: all 1s;
+	position: absolute;
+	width: 42.5%;
+	height: 30%;
+	left: 5%;
+	right: 55%;
+	top: 22%;
+	background: rgba(255, 195, 0,0.5);
+	font-family: letra2;
+	border: 2px solid orange;
+	text-align: center;
+	padding-top: 2%;
+	font-size: 108%;
+}
+
+#p2{
+	transition: all 1s;
+	position: absolute;
+	width: 42.5%;
+	height: 30%;
+	left: 52.5%;
+	right: 5%;
+	top: 22%;
+	background: rgba(192, 121, 246,0.5);
+	font-family: letra2;
+	text-align: center;
+	border: 2px solid purple;
+	padding-top: 2%;
+	font-size: 108%;
+}
+
+#img{
+	position: absolute;
+	top: 62%;
+	width: 90%;
+	height: 36%;
+	left: 5%;
+	right: 5%;
+}
+
+@media only screen and (max-width: 900px){
+	#tit{
+		transition: all 1s;
+	background: rgba(247, 104, 11,0.5);
+	border-radius: 20px;
+	border: 2px solid red;
+}
+
+#p1{
+	background: rgba(122, 185, 63,0.5);
+	border-radius: 20px;
+	height: 38%;
+	border: 2px solid green;
+	top: 20%;
+	padding-top: 1%;
+	font-size: 100%;
+}
+
+#p2{
+	border-radius: 20px;
+	background: rgba(63, 98, 185,0.5);
+	height: 38%;
+	border: 2px solid blue;
+	top: 20%;
+	padding-top: 1%;
+	font-size: 100%;
+}
+
+#img{
+	transition: all 1s;
+	top: 68%;
+	height: 30%;
+}
+}
+
+
+@media only screen and (max-width: 650px){
+	#tit{
+		transition: all 1s;
+		background: rgba(22, 164, 107,0.5);
+		padding-top: 1%;
+		border: 2px solid green;
+	}
+
+	#p1{
+	transition: all 1s;
+	background: rgba(152, 17, 107,0.3);
+	border-radius: 0px 20px 0px 20px;
+	height: 25%;
+	width: 90%;
+	top: 18%;
+	border: 2px solid purple;
+	}
+
+	#p2{
+	transition: all 1s;
+	background: rgba(192, 57, 43,0.3);
+	border-radius: 0px 20px 0px 20px;
+	height: 25%;
+	width: 90%;
+	top: 47%;
+	left: 5%;
+	border: 2px solid red;
+	}
+
+	#img{
+	transition: all 1s;
+	top: 78%;
+	height: 20%;
+	}
+}
